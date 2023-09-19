@@ -1,0 +1,10 @@
+.title-container {
+    width: 100%; /* Set the width for the title container */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add an ellipsis (...) when text overflows */
+  }
+  
+  .title {
+    max-width: 100%; /* Ensure title doesn't overflow its container */
+  }
